@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.ThongTinCaNhan">
+
+    <TextView
+        android:id="@+id/txtUrl8"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/edtDiaChi"
+        android:text="SĐT"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edtSDT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtUrl8"
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="textPersonName"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtUrl7"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/edtHoTen"
+        android:text="Địa chỉ:"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edtDiaChi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtUrl7"
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="textPersonName"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtUrl6"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/edtHinh"
+        android:text="Họ Tên:"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edtHoTen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtUrl6"
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="textPersonName"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imgHinhTT"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@mipmap/ic_launcher_round"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/txtUrl"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imgHinhTT"
+        android:text="URL:"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edtHinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtUrl"
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="textPersonName"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnLuuTT"
+        android:layout_width="108dp"
+        android:layout_height="37dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/edtSDT"
+        android:layout_marginEnd="54dp"
+        android:text="Lưu" />
+
+    <Button
+        android:id="@+id/btnCapNhatTT"
+        android:layout_width="108dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/edtSDT"
+        android:layout_marginStart="54dp"
+        android:text="Cập Nhật" />
+
+</RelativeLayout>
